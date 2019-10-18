@@ -1,0 +1,15 @@
+.cartStepperWrapper {
+    margin-bottom: 100px;
+    padding-top: 25px;
+
+    .steps {
+        margin-top: 50px;
+        padding-top: 50px;
+        border-top: 1px solid #ececee;
+    }
+
+    .nextStepWrapper {
+        display: flex;
+        justify-content: flex-end;
+    }
+}

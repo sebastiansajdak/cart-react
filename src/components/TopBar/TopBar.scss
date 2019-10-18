@@ -1,0 +1,33 @@
+.topBarWrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 4px 20px rgba(37, 38, 94, 0.1);
+    background: #fff;
+    z-index: 10;
+
+    .innerBlock {
+        width: 1300px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+
+        .logo {
+            a {
+                text-decoration: none;
+                text-transform: uppercase;
+                color: #7540ee;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 1300px) {
+        .innerBlock {
+            width: 100%;
+            padding: 0 15px;
+        }
+    }
+}

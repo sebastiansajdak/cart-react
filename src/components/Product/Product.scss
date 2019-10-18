@@ -1,0 +1,38 @@
+.productWrapper {
+    display: flex;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 25px;
+
+    .imgBlock {
+        height: 120px;
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+
+    .content {
+        padding-left: 15px;
+
+        .title {
+            margin: 0 0 10px;
+            color: #25265e;
+            font-size: 16px;
+        }
+
+        .description {
+            margin: 0 0 20px;
+            color: #787993;
+            font-size: 14px;
+            font-weight: 300;
+        }
+
+        .price {
+            color: #3fb6dc;
+            font-size: 20px;
+            font-weight: 300;
+        }
+    }
+}

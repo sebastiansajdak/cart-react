@@ -1,0 +1,12 @@
+.cardPlaceholderWrapper {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    
+    div {
+        width: 290px;
+        height: 182px;
+        background: #eee;
+        border-radius: 10px;
+    }
+}
